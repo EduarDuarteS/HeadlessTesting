@@ -13,7 +13,7 @@ cd lighthouse & npm install
 
 ```
 
-2. Ejecutar la aplicación en un server ```
+2. Ejecutar la aplicación en un server
 
 ```
 cd .. & http-server .

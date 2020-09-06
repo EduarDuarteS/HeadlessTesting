@@ -22,7 +22,7 @@ const puppeteer = require('puppeteer');
     console.log(`${key} ${Math.round(used[key] / 1024 / 1024 * 100) / 100} MB`);
   }
 
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({ headless: false });
 
   const usedw = process.memoryUsage();
 

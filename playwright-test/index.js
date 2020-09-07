@@ -14,7 +14,7 @@ const { webkit } = require('playwright');
   console.log(os.freemem())
   console.log(os.totalmem() - os.freemem());
 
-  const browser = await webkit.launch({ headless: true });
+  const browser = await webkit.launch({ headless: false });
   const page = await browser.newPage();
   await page.goto('https://angular-6-registration-login-example.stackblitz.io/register');
 
